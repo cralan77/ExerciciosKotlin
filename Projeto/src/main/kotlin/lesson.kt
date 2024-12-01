@@ -1,0 +1,1 @@
+data class Lesson(val tittle: String, val link: String)
