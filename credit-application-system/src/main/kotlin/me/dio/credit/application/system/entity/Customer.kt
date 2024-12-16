@@ -3,7 +3,6 @@ package me.dio.credit.application.system.entity
 import jakarta.persistence.*
 import java.math.BigDecimal
 
-//falta fazer anotações do adress e do credit
 @Entity
 @Table(name = "Customer")
 data class Customer(
