@@ -83,13 +83,13 @@ class CustomerServiceTest {
 
     companion object {
         fun buildCustomer(
-            firstName: String = "Cami",
-            lastName: String = "Cavalcante",
+            firstName: String = "Alan",
+            lastName: String = "Cristiano",
             cpf: String = "28475934625",
-            email: String = "camila@gmail.com",
+            email: String = "alan@gmail.com",
             password: String = "12345",
             zipCode: String = "12345",
-            street: String = "Rua da Cami",
+            street: String = "Rua dos carecas 123",
             income: BigDecimal = BigDecimal.valueOf(1000.0),
             id: Long = 1L
         ) = Customer(
